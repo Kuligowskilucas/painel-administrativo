@@ -1,5 +1,5 @@
 <?php 
-include 'config.php';
+include 'config/config.php';
 
 $db = conectarBanco();
 
@@ -13,6 +13,6 @@ function AdicionarDados(SQLite3 $conexao, $tabela, string $nome, int $preco, str
     $statment->execute();
 }
 
-function listarDados(){
-    
-}
+// function listarDados(){
+
+// }

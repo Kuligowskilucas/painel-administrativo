@@ -11,7 +11,7 @@
 
 <body>
     <h1>adicione aqui seu produto</h1>
-    <form action="processaFormulario.php" method="post">
+    <form action="/../database/processaFormulario.php" method="post">
         <div>
             <input type="text" name="nome" id="nome" placeholder="Nome">
             <input type="number" name="preco" id="preco" placeholder="Preço">
